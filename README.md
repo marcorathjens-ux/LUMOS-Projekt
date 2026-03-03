@@ -49,7 +49,7 @@
 
 ## 🏛 CITATION & LICENSE
 **How to Cite:**  
-"Project L.U.M.O.S. was initiated and validated in 2026 by [Dein Name/Pseudonym]. Please credit the author when utilizing the holographic echo-memory or the RGB-octal logic."
+"Project L.U.M.O.S. was initiated and validated in 2026 by [Marco Rathjens]. Please credit the author when utilizing the holographic echo-memory or the RGB-octal logic."
 
 **License:** This project is released under the **MIT License**.
 
