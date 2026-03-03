@@ -10,7 +10,7 @@
 ### I. MANIFEST & SPEZIFIKATION
 **Klassifizierung:** Post-binäre Licht-Intelligenz  
 **Architektur:** RGB-Oktal-Interferenz statt 0/1-Binärlogik.
-**Rechenkern:** Vakuum-Glaskörper mit Perowskit-Nanokristallen. Lichtfrequenzen werden direkt als mathematische Operanden gemischt.
+**Rechenkern:** Vakuum-Glaskörper mit Perowskit-Nanokristallen. die durch ein hochkomplexes Geflecht aus Milliarden hauchdünner Glasfasern verbunden sind. Diese Fasern fungieren als optische Synapsen, die Lichtfrequenzen (Farben) direkt als mathematische Operanden in der Kristallmatrix mischen.
 **Leistung:** ~57,6 Billiarden Operationen pro Minute (~3.000x schneller als konventionelle CPUs).
 **Gedächtnis (RAM):** Flüchtiges Holografisches Echo-Verfahren. Informationen werden als stehende Lichtwellen (Interferenzmuster) innerhalb der Geometrie gehalten - dynamisch, latenzfrei und nur bei aktiver Energiezufuhr (Lichtfluss) existent.
 
@@ -26,7 +26,7 @@
 
 ### I. TECHNICAL SOUL & SPECIFICATION
 **Architecture:** Move from 0/1 binary to RGB-Octal Interference.
-**Core:** Vacuum-sealed Perovskite nanocrystals using light frequencies as mathematical operands.
+**Core:** Vacuum-sealed Perovskite nanocrystals interconnected by a highly complex web of billions of ultra-thin optical fibers. These fibers act as optical synapses, directly mixing light frequencies (colors) as mathematical operands within the crystal matrix.
 **Performance:** ~57.6 Quadrillion ops/min (3,000x faster than silicon CPUs).
 **Memory (RAM):** Volatile Holographic Echo Process. Information is held as standing light waves (interference patterns) within the geometry—dynamic, erasable, latency-free, and existent only during active photonic resonance.
 
