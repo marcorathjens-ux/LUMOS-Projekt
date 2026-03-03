@@ -12,7 +12,7 @@
 **Architektur:** RGB-Oktal-Interferenz statt 0/1-Binärlogik.
 **Rechenkern:** Vakuum-Glaskörper mit Perowskit-Nanokristallen. Lichtfrequenzen werden direkt als mathematische Operanden gemischt.
 **Leistung:** ~57,6 Billiarden Operationen pro Minute (~3.000x schneller als konventionelle CPUs).
-**Gedächtnis (RAM):** Flüchtiges Holografisches Echo-Verfahren. Informationen werden als stehende Lichtwellen (Interferenzmuster) innerhalb der Geometrie gehalten - dynamisch,latenzfrei und nur bei aktiver Energiezufuhr (Lichtfluss) existent.
+**Gedächtnis (RAM):** Flüchtiges Holografisches Echo-Verfahren. Informationen werden als stehende Lichtwellen (Interferenzmuster) innerhalb der Geometrie gehalten - dynamisch, latenzfrei und nur bei aktiver Energiezufuhr (Lichtfluss) existent.
 
 ### II. BEDIENUNGSANLEITUNG (INITIALISIERUNG)
 1. **Annäherung:** Registrierung der biometrischen Signatur bei < 2m. Pulsierendes Bernstein-Glimmen.
@@ -28,7 +28,7 @@
 **Architecture:** Move from 0/1 binary to RGB-Octal Interference.
 **Core:** Vacuum-sealed Perovskite nanocrystals using light frequencies as mathematical operands.
 **Performance:** ~57.6 Quadrillion ops/min (3,000x faster than silicon CPUs).
-**Memory:** Holographic Echo Process. Information held as standing light waves (latency-free).
+**Memory (RAM):** Volatile Holographic Echo Process. Information is held as standing light waves (interference patterns) within the geometry—dynamic, erasable, latency-free, and existent only during active photonic resonance.
 
 ### II. USER MANUAL (INITIALIZATION)
 1. **Approach:** Biometric sync at < 2m. Deep pulsing amber glow.
