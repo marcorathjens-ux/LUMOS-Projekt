@@ -1,4 +1,4 @@
-markdown
+
 # 💎 L.U.M.O.S. (Light-based Universal Multimodal Operating System)
 **Genesis Phase - March 2026**  
 *A Post-Binary Architecture based on RGB-Octal Interference Logic*
