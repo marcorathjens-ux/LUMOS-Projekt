@@ -12,7 +12,7 @@
 **Architektur:** RGB-Oktal-Interferenz statt 0/1-Binärlogik.
 **Rechenkern:** Vakuum-Glaskörper mit Perowskit-Nanokristallen. Lichtfrequenzen werden direkt als mathematische Operanden gemischt.
 **Leistung:** ~57,6 Billiarden Operationen pro Minute (~3.000x schneller als konventionelle CPUs).
-**Gedächtnis:** Holografisches Echo-Verfahren. Informationen als stehende Lichtwellen (latenzfrei).
+**Gedächtnis (RAM):** Flüchtiges Holografisches Echo-Verfahren. Informationen werden als stehende Lichtwellen (Interferenzmuster) innerhalb der Geometrie gehalten - dynamisch,latenzfrei und nur bei aktiver Energiezufuhr (Lichtfluss) existent.
 
 ### II. BEDIENUNGSANLEITUNG (INITIALISIERUNG)
 1. **Annäherung:** Registrierung der biometrischen Signatur bei < 2m. Pulsierendes Bernstein-Glimmen.
