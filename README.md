@@ -4,6 +4,14 @@
 
 ---
 
+## ⚠️ THEORETISCHES ARCHITEKTUR-KONZEPT / THEORETICAL CONCEPT
+
+**DE:** **Wichtiger Hinweis:** L.U.M.O.S. ist ein **theoretisches Architektur-Modell** (Proof-of-Concept-Design). Es beschreibt eine spekulative Hardware-Logik zur Erweiterung binärer Systeme. Es existiert derzeit kein physischer Prototyp; die Validierung erfolgt über computergestützte Simulationen (Python 3.14).
+
+**EN:** **Important Note:** L.U.M.O.S. is a **theoretical architectural model** (Proof-of-Concept design). It describes speculative hardware logic to extend binary systems. No physical prototype currently exists; validation is conducted via computer-aided simulations (Python 3.14).
+
+---
+
 ## 🌀 System-Logik: Geometrisches Photonisches Reservoir
 
 **Wichtiger Hinweis / Important Note:**  
