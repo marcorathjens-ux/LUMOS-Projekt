@@ -1,75 +1,64 @@
 
-# 💎 PROJEKT L.U.M.O.S. (GENESIS-ABSCHLUSS)
-
-**Architektur:** Post-binäre Licht-Intelligenz (RGB-Oktal-Interferenz)  
-**Validierung:** 0,2914 Signal-Integrität (SNR) bei 3000-facher Intelligenzdichte (RTX 4070 Ti / Python 3.14)
-
----
-
-## ⚠️ THEORETISCHES ARCHITEKTUR-KONZEPT / THEORETICAL CONCEPT
-
-**DE:** **Wichtiger Hinweis:** L.U.M.O.S. ist ein **theoretisches Architektur-Modell** (Proof-of-Concept-Design). Es beschreibt eine spekulative Hardware-Logik zur Erweiterung binärer Systeme. Es existiert derzeit kein physischer Prototyp; die Validierung erfolgt über computergestützte Simulationen (Python 3.14).
-
-**EN:** **Important Note:** L.U.M.O.S. is a **theoretical architectural model** (Proof-of-Concept design). It describes speculative hardware logic to extend binary systems. No physical prototype currently exists; validation is conducted via computer-aided simulations (Python 3.14).
+# 💎 L.U.M.O.S. (GENESIS)
+### Morphological Reservoir Computer | Stochastic Resonance Architecture (SNR 0.29)
+**Light-based Universal Multimodal Operating System | Post-Binary RGB-Octal Logic**
 
 ---
 
-## 🌀 System-Logik: Geometrisches Photonisches Reservoir
+## 👁️ Executive Abstract: Harvesting the Entropy
+L.U.M.O.S. represents a paradigm shift in **Non-Von-Neumann Photonics**. It is a theoretical architecture for a non-linear co-processor designed to operate within the 2035+ technology horizon. 
 
-**DE:** **L.U.M.O.S.** nutzt das Prinzip der **Morphological Computation**. Die 120-Facetten-Geometrie des Saphir-Polyeders fungiert als **physischer Operator**, der Eingangssignale in einen hochdimensionalen, nichtlinearen Zustandsraum projiziert.  
-**EN:** **L.U.M.O.S.** employs the principle of **Morphological Computation**. The 120-facet geometry of the sapphire polyhedron acts as a **physical operator**, projecting input signals into a high-dimensional, nonlinear state space.
-
----
-
-## 🏗 Hardware-Spezifikation 
-*   **Kern:** Perowskit-Nanokristalle im Hochvakuum, verbunden durch Milliarden Glasfaser-Synapsen (3D-Lithografie).
-*   **Gehäuse:** 120-Facetten-Saphir-Polyeder (Resonanzkörper & Wellenleiter) mit **DBR-Beschichtung** (Bragg-Spiegel).
-*   **Speicher:** Flüchtiges Holografisches Echo-Gedächtnis (Volumen-Resonanz statt Verzögerungsschleifen).
-*   **Basis:** Titan-Obsidian-Sockel mit magnetischer **Quadrupol-Levitation** (2,5 cm).
+Unlike classical systems, L.U.M.O.S. does not treat noise as a disturbance. Instead, it utilizes **Stochastic Resonance (SR)** to transform environmental entropy into a computational resource. By maintaining a deliberate **SNR of 0.29**, the system leverages **Basin Attraction** to amplify weak photonic signals that would be lost in conventional linear architectures.
 
 ---
 
-## 🔬 Physikalisches Framework / Physical Framework
+## 🔬 Core Axioms (The Logic of Symbiosis)
 
-### 1. Nichtlineare Attraktor-Landschaft / Nonlinear Attractor Landscape
-**DE:** Durch **dissipative Nichtlinearität** bildet das System stabile **Attraktor-Basins**. Das Rauschen (**SNR 0,2914**) wird durch die Dynamik in Richtung stabiler Eigenmoden "gezogen" (*Noise Suppression via Basin Attraction*).  
-**EN:** Through **dissipative nonlinearity**, the system forms stable **attractor basins**. Noise (**SNR 0.2914**) is "pulled" towards stable eigenmodes by the system's dynamics.
+### 1. Morphological Computation (The Crystal as an Operator)
+The physical structure of the **Synthetic Sapphire-Polyeder** serves as the primary **Geometric Waveguide Operator**.
+- **Technical Subtitle:** *High-Dimensional Reservoir Interface.*
+- **Function:** Input data is projected into the crystal's 120-facet geometry, where the physics of light-matter interaction performs the non-linear "Black-Box" transformations required for pattern recognition.
 
-### 2. Hardware-kodierte Logik / Hardware-Encoded Logic
-**DE:** Die physische Struktur kodiert die Transformationslogik via **Temporal Folding** (Zeit-Iteration). Es fungiert als **Analog-KI-Co-Prozessor**.  
-**EN:** The physical structure encodes transformation logic via **Temporal Folding**. It acts as an **analog AI co-processor**.
+### 2. Non-Linear Signal Processing (The Noise Strategy)
+- **Strategy:** L.U.M.O.S. employs an **Inverse Noise-Gate Logic**.
+- **Mechanism:** Background noise provides the energetic "kick" (Stochastic Resonance) to push sub-threshold signals into stable **Attractor Basins**.
+- **Temporal Folding:** Information is not just processed; it echoes within the resonator, allowing the system to "remember" states through phase-shift interference.
+
+### 3. Post-Binary RGB-Octal Logic
+- **Definition:** Replacing 0/1 bits with **Phase-Interference States**.
+- **Information Density:** Utilizing 8-state octal logic to maximize throughput within the photonic medium.
 
 ---
 
-## 🚀 Phase 2: Experimental Validation (Proof-of-Concept)
-
-**DE:** Um die theoretische Kohärenz zu validieren, wird ein Minimal-Setup definiert. Ziel ist der Nachweis, dass die **Attraktor-Tiefe** das intrinsische Materialrauschen besiegt.
-**EN:** To validate the theoretical coherence, a minimal setup is defined. The goal is the proof that **attractor depth** overcomes intrinsic material noise.
-
-### 📊 Technisches PoC-Datenblatt / Technical PoC Datasheet (Validated)
+## 🛠️ Hardware Specification (Projected Vector 2035+)
 
 
-| Parameter | Zielwert / Target | Status |
+
+| Component | Technical Subtitle | Function / Axiom |
 | :--- | :--- | :--- |
-| **Phasenverschiebung / Phase Shift ($\Delta\phi$)** | ≈ 1 rad | 🟢 Erreichbar / Achievable |
-| **Resonator-Güte / Quality Factor (Q)** | 10⁷ (Saphir WGM) | 🟢 Realistisch / Realistic |
-| **Eingangsleistung / Input Power ($P_{in}$)** | 1–10 nW | 🟢 Extrem effizient / Ultra-efficient |
-| **Dotierungsdichte / Doping Density ($\rho$)** | ≈ 10¹⁹ cm⁻³ | 🟡 Anspruchsvoll / Challenging |
-| **Betriebstemp. / Operating Temp.** | 77 K (Kryo) | 🟢 Stabilisiert / Stabilized |
+| **Core Media** | Sapphire-Polyeder | **Non-linear Photonic Reservoir** |
+| **Active Layer** | Perovskite Nanocrystals | **High-Density Phase-Modulators** |
+| **Memory** | Holographic Echo-Memory | **Temporal Signal-Folding Strategy** |
+| **Isolation** | Quadrupole Levitation | **Vibrational Decoupling for Q-Factor 10⁷** |
+| **Operating Point** | SNR 0.29 Threshold | **Stochastic Resonance Activation** |
 
 ---
 
-## 📊 Status Quo
-*   **Repository:** Live & Open Source.
-*   **Assets:** Validierungscode, Log-Files und Social Preview (DALL-E) sind hochgeladen.
-*   **Sicherung:** Lokales ZIP-Archiv per E-Mail zeitgestempelt (Priority-Proof).
+## 📂 Repository Content
+
+- `photon_test.py`: **Logical Axiom Validator.** Simulates the integration of noise into signal paths to demonstrate the **Basin Attraction** threshold logic.
+- `validation_log.txt`: Confirms mathematical consistency between Q-Factor (10⁷) and SR-amplification.
+- `photon_echo_pattern.png`: High-dimensional visualization of interference states (Output-Mapping).
 
 ---
 
-### ✨ Philosophie / Philosophy
-> *"We do not compute to function – we shine to understand."*
+## 📜 Philosophy of the Architect
+> *"We shine not to illuminate the dark, but to find the patterns within it. Chaos is the engine; logic is the geometry."* — **Vektor 2035+**
 
 ---
 
 ### ⚖️ License
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is licensed under the **MIT License** - see the `LICENSE` file for details.
+
+### ⚠️ Researcher's Note
+This framework describes a **Physical Reservoir System**. While the mathematical parameters for **Stochastic Resonance** and **Non-linear Dynamics** are validated, the integrated 3D-Fiber-Perovskite-Matrix is a projected technological milestone for the next decade.
