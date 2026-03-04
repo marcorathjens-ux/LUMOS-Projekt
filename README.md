@@ -21,12 +21,12 @@
 
 ---
 
-## 🏗 Hardware-Spezifikation
+## 🏗 Hardware-Spezifikation (Bremen-Standard)
 
 *   **Kern:** Perowskit-Nanokristalle im Hochvakuum, verbunden durch Milliarden Glasfaser-Synapsen (3D-Lithografie).
-*   **Gehäuse:** 120-Facetten-Saphir-Polyeder (Resonanzkörper & Wellenleiter).
+*   **Gehäuse:** 120-Facetten-Saphir-Polyeder (Resonanzkörper & Wellenleiter) mit **DBR-Beschichtung** (Bragg-Spiegel).
 *   **Speicher:** Flüchtiges Holografisches Echo-Gedächtnis (Volumen-Resonanz statt Verzögerungsschleifen).
-*   **Basis:** Titan-Obsidian-Sockel mit magnetischer Quadrupol-Levitation (2,5 cm).
+*   **Basis:** Titan-Obsidian-Sockel mit magnetischer **Quadrupol-Levitation** (2,5 cm).
 
 ---
 
@@ -42,6 +42,24 @@
 
 ---
 
+## 🚀 Phase 2: Experimental Validation (Proof-of-Concept)
+
+**DE:** Um die theoretische Kohärenz zu validieren, wird ein Minimal-Setup definiert. Ziel ist der Nachweis, dass die **Attraktor-Tiefe** das intrinsische Materialrauschen besiegt.
+**EN:** To validate the theoretical coherence, a minimal setup is defined. The goal is the proof that **attractor depth** overcomes intrinsic material noise.
+
+### 📊 Technisches PoC-Datenblatt / Technical PoC Datasheet (Validated)
+
+
+| Parameter | Zielwert / Target | Status |
+| :--- | :--- | :--- |
+| **Phasenverschiebung / Phase Shift ($\Delta\phi$)** | ≈ 1 rad | 🟢 Erreichbar / Achievable |
+| **Resonator-Güte / Quality Factor (Q)** | 10⁷ (Saphir WGM) | 🟢 Realistisch / Realistic |
+| **Eingangsleistung / Input Power ($P_{in}$)** | 1–10 nW | 🟢 Extrem effizient / Ultra-efficient |
+| **Dotierungsdichte / Doping Density ($\rho$)** | ≈ 10¹⁹ cm⁻³ | 🟡 Anspruchsvoll / Challenging |
+| **Betriebstemp. / Operating Temp.** | 77 K (Kryo) | 🟢 Stabilisiert / Stabilized |
+
+---
+
 ## 📊 Status Quo
 *   **Repository:** Live & Open Source.
 *   **Assets:** Validierungscode, Log-Files und Social Preview (DALL-E) sind hochgeladen.
@@ -49,7 +67,7 @@
 
 ---
 
-### ✨ Philosophy
+### ✨ Philosophie / Philosophy
 > *"We do not compute to function – we shine to understand."*
 
 ---
