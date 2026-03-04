@@ -21,8 +21,7 @@
 
 ---
 
-## 🏗 Hardware-Spezifikation (Bremen-Standard)
-
+## 🏗 Hardware-Spezifikation 
 *   **Kern:** Perowskit-Nanokristalle im Hochvakuum, verbunden durch Milliarden Glasfaser-Synapsen (3D-Lithografie).
 *   **Gehäuse:** 120-Facetten-Saphir-Polyeder (Resonanzkörper & Wellenleiter) mit **DBR-Beschichtung** (Bragg-Spiegel).
 *   **Speicher:** Flüchtiges Holografisches Echo-Gedächtnis (Volumen-Resonanz statt Verzögerungsschleifen).
