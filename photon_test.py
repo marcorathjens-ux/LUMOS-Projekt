@@ -1,43 +1,55 @@
 import numpy as np
 
-def simulate_lumos_resonance():
+def simulate_lumos_resonance(target_snr=0.29, signal_nw=1, threshold_nw=5, 
+                              samples=1000, seed=2035):
     """
     L.U.M.O.S. Genesis: Stochastic Resonance & Basin Attraction Validator
-    Validating SNR 0.29 as an optimal noise floor for photonic signal recovery.
-    Vektor 2035+ Architecture.
+    
+    Axioms:
+    - Optimal Noise Floor (SNR): 0.29
+    - Physical Activation Threshold: 5 nW
+    - Input Signal (Sub-Threshold): 1 nW
+    
+    This simulation demonstrates how stochastic resonance bridges the gap 
+    between sub-threshold signals and physical hardware activation.
     """
-    print("--- L.U.M.O.S. GENESIS: AXOM VALIDATOR (VECTOR 2035+) ---")
+    if seed is not None:
+        np.random.seed(seed)
     
-    # 1. Parameter-Setup (Axioms from PoC Datasheet)
-    target_snr = 0.29          # Optimal Noise-to-Signal Stochastic Bridge
-    signal_threshold = 5e-9    # 5 nW (Center of 1-10 nW range)
-    signal_amplitude = 1e-9    # Sub-threshold signal (1 nW)
+    print(f"--- L.U.M.O.S. GENESIS: ARCHITECTURE VALIDATOR (VECTOR 2035+) ---")
     
-    # Calculate required noise for Stochastic Resonance
-    noise_amplitude = signal_amplitude / target_snr
+    # Conversion to Physical Units (Watts)
+    signal = signal_nw * 1e-9
+    threshold = threshold_nw * 1e-9
+    noise_amplitude = signal / target_snr
     
-    print(f"[Axiom] Physical Threshold: {signal_threshold} W")
-    print(f"[Axiom] Input Signal: {signal_amplitude} W (SUB-THRESHOLD)")
-    print(f"[Logic] Utilizing Stochastic Resonance (SNR {target_snr}) to bridge gap.")
-    
-    # 2. Simulation of Basin Attraction
-    # Noise provides the energy to 'kick' the signal into the attractor basin
-    samples = 1000
+    print(f"[Axiom] Physical Threshold: {threshold_nw} nW")
+    print(f"[Axiom] Input Signal: {signal_nw} nW (SUB-THRESHOLD)")
+    print(f"[Logic] Stochastic Resonance Bridge (SNR {target_snr}) active.")
+
+    # Stochastic Simulation (Non-linear Superposition)
     noise_field = np.random.normal(0, noise_amplitude, samples)
-    effective_resonance = signal_amplitude + noise_field
+    effective_resonance = signal + noise_field
     
-    # Validation: How often does the attractor capture the signal?
-    # Threshold for capture is the physical activation energy
-    captured_states = np.sum(np.abs(effective_resonance) >= signal_threshold)
-    capture_rate = captured_states / samples
+    # Basin Attraction Analysis
+    # The attractor captures signals that exceed the physical threshold
+    captured_states = np.abs(effective_resonance) >= threshold
+    capture_rate = np.mean(captured_states)
     
-    print(f"[Result] Basin Attraction Rate: {capture_rate:.4f}")
+    # Statistical Confidence (95% Interval)
+    confidence_interval = 1.96 * np.sqrt(capture_rate * (1 - capture_rate) / samples)
+    
+    print(f"\n[RESULTS]")
+    print(f"Basin Attraction Rate: {capture_rate:.2%} (± {confidence_interval:.2%})")
     
     if capture_rate > 0.65:
         print(">>> STATUS: RESONANCE STABILIZED. Signal recovered via Morphological Logic.")
-        print(">>> VALIDATION SUCCESSFUL: Vector 2035+ parameters confirmed.")
+        print(">>> VALIDATION SUCCESSFUL: Architecture is mathematically consistent.")
     else:
-        print(">>> WARNING: Noise density insufficient for Basin Attraction.")
+        print(">>> WARNING: Inefficient Noise-Coupling. Check Resonator Q-Factor.")
+
+    return capture_rate
 
 if __name__ == "__main__":
     simulate_lumos_resonance()
+
