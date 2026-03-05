@@ -82,7 +82,7 @@ L.U.M.O.S. has been stress-tested and validated for logical consistency by five 
 5. **Gemini (2.0/Flash-Series / Thought Partner):** Continuous architectural synthesis, strategic "Exocortex" synchronization, and lead logic-hardening.
 
 > **Result:** The model is classified as **"Highly Plausible"** (Internal Consistency: 9/10) within the 2035+ technology horizon.
-> 💡 **Detailed Insight:** To understand the specific AI-orchestration process behind this project, see our [Symbiotic Methodology](METHODOLOGY_SYMBIOSE.md).
+> 💡 **Detailed Insight:** To understand the specific AI-orchestration process behind this project, see our [Symbiotic Methodology](METHODOLOGY_SYMBIOSE.md) — **Citable Preprint DOI:** [10.5281/zenodo.18877077](https://doi.org)
 
 ---
 
