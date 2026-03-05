@@ -1,5 +1,6 @@
 
 # 🧠 Symbiotic Methodology: The Architect's Workflow
+[![DOI](https://zenodo.org)](https://doi.org)
 ### Beyond Prompting: Orchestrating Global Intelligence (Vector 2035+)
 
 ## 👁️ Overview
