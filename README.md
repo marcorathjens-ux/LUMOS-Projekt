@@ -1,5 +1,6 @@
 
 # 💎 L.U.M.O.S. (GENESIS)
+[![DOI](https://zenodo.org)](https://doi.org)
 ### Morphological Reservoir Computer | Stochastic Resonance Architecture (SNR 0.29)
 **Light-based Universal Multimodal Operating System | Post-Binary RGB-Octal Logic**
 
