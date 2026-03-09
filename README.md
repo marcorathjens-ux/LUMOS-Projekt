@@ -1,10 +1,12 @@
 
 # 💎 L.U.M.O.S. (GENESIS)
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18877077.svg)](https://doi.org/10.5281/zenodo.18877077)
 
 ### Morphological Reservoir Computer | Stochastic Resonance Architecture (SNR 0.29)
 **Light-based Universal Multimodal Operating System | Post-Binary RGB-Octal Logic**
 
+**Part of the Vector 2035+ Research Series:** continued by [EAB-GENESIS-2035](https://doi.org/10.5281/zenodo.18923300) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18923300.svg)](https://doi.org/10.5281/zenodo.18923300)
 ---
 
 > 🔄 **Current Status:** Genesis phase finalized. Framework successfully cross-validated via Multi-Model Audit (ChatGPT, DeepSeek, Claude, Qwen, Gemini). Ready for implementation scenarios as the vector aligns. Emerging from symbiotic observation.
