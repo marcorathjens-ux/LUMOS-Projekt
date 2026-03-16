@@ -35,6 +35,9 @@ explicitly outstanding and invited.
 > see [CORE_PHYSICS.md](CORE_PHYSICS.md)** — the "missing link" between
 > the hardware specification and the underlying logic.
 
+> 🏛️ **For the architectural decisions and biomimetic origins,
+> see [ARCHITECTURE.md](ARCHITECTURE.md)** — why it was built this way.
+
 ---
 
 ## 👁️ Executive Abstract: Harvesting the Entropy
@@ -56,15 +59,19 @@ photonic signals that would be lost in conventional linear architectures.
 
 ---
 
-## 🛠️ Hardware Specification
+## 🛠️ Hardware Specification (Validated Parameters)
 
-| Component | Technical Subtitle | Function / Axiom |
+| Parameter | Value | Technical Function |
 | :--- | :--- | :--- |
-| **Core Media** | Sapphire-Polyeder | **Non-linear Photonic Reservoir** |
-| **Active Layer** | Perovskite Nanocrystals | **High-Density Phase-Modulators** |
-| **Memory** | Holographic Echo-Memory | **Temporal Signal-Folding Strategy** |
-| **Isolation** | Quadrupole Levitation | **Vibrational Decoupling for Q-Factor $10^7$** |
-| **Operating Point** | SNR 0.29 Threshold | **Stochastic Resonance Activation** |
+| **Core Material** | Synthetic Sapphire | High-Dimensional Waveguide Reservoir |
+| **Resonator Quality (Q)** | 10⁷ (WGM) | Vibrational Decoupling / Signal Decay Prevention |
+| **Active Layer** | Perovskite Nanocrystals (10¹⁹ cm⁻³) | Non-linear Phase-Modulation |
+| **Memory** | Holographic Echo-Memory | Temporal Signal-Folding via Bipolar Coating |
+| **Isolation** | Quadrupole Levitation | Thermal Isolation for Interference Stability |
+| **Signal Threshold** | 1–10 nW | Stochastic Resonance Activation Floor |
+| **SNR Target** | 0.29 | Optimal Noise-to-Signal Stochastic Bridge |
+| **Phase Shift** | ≈ 1 rad | Octal Interference Mapping (RGB-Octal) |
+| **Operating Point** | SNR 0.29 Threshold | Stochastic Resonance Activation |
 
 ---
 
@@ -74,7 +81,6 @@ photonic signals that would be lost in conventional linear architectures.
 The physical structure of the **Synthetic Sapphire-Polyeder** serves as
 the primary **Geometric Waveguide Operator**.
 
-- **Technical Subtitle:** *High-Dimensional Reservoir Interface.*
 - **Function:** Input data is projected into the crystal's 120-facet
   geometry, where the physics of light-matter interaction performs the
   non-linear transformations required for pattern recognition.
@@ -82,56 +88,39 @@ the primary **Geometric Waveguide Operator**.
   light is trapped through total internal reflection, enabling volumetric
   echo memory without kilometer-long fiber delay lines.
   → [Full reasoning in CORE_PHYSICS.md § 2](CORE_PHYSICS.md)
+  → [Architectural origin in ARCHITECTURE.md § 2](ARCHITECTURE.md)
 
 ### 2. Non-Linear Signal Processing (The Noise Strategy)
 - **Strategy:** L.U.M.O.S. employs an **Inverse Noise-Gate Logic**.
 - **Mechanism:** Background noise provides the energetic "kick"
   (Stochastic Resonance) to push sub-threshold signals into stable
   **Attractor Basins**.
-- **Temporal Folding:** Information is not just processed; it echoes
-  within the resonator, allowing the system to "remember" states through
-  phase-shift interference.
+- **Temporal Folding:** Information echoes within the resonator, allowing
+  the system to "remember" states through phase-shift interference,
+  stabilized by the bipolar coating layer.
 
 ### 3. Post-Binary RGB-Octal Logic
 - **Definition:** Replacing 0/1 bits with **Phase-Interference States**.
 - **Information Density:** Utilizing 8-state octal logic (WDM —
   Wavelength Division Multiplexing) to maximize throughput within
   the photonic medium.
-- **Speed:** Photons travel at $c = 3 \times 10^8\,\text{m/s}$ with
-  no resistive loss. Speed is limited only by path length — in the
-  compact polyhedron, paths are extremely short.
-
----
-
-## 🛠️ Hardware Specification (Validated PoC Parameters)
-
-| Parameter | Value (Validated) | Technical Function / Axiom |
-| :--- | :--- | :--- |
-| **Resonator Quality (Q)** | $10^7$ (WGM) | **Vibrational Decoupling / Signal Decay Prevention** |
-| **Doping Density** | $10^{19}\,\text{cm}^{-3}$ | **Non-linear Perovskite Phase-Modulation** |
-| **Signal Threshold** | 1–10 nW | **Stochastic Resonance Activation Floor** |
-| **SNR Target** | 0.29 | **Optimal Noise-to-Signal Stochastic Bridge** |
-| **Phase Shift** | $\approx 1\,\text{rad}$ | **Octal Interference Mapping (RGB-Octal)** |
-| **Core Material** | Synthetic Sapphire | **High-Dimensional Waveguide Reservoir** |
-| **Levitation Field** | Quadrupole (Lev.) | **Thermal Isolation for Interference Stability** |
+- **Speed:** Photons travel at c = 3 × 10⁸ m/s with no resistive loss.
+  Speed is limited only by path length — in the compact polyhedron,
+  paths are extremely short.
 
 ---
 
 ## 📂 Repository Content
 
-- `CORE_PHYSICS.md`: **The physical reasoning.** Why vacuum, why
-  120 facets, why perovskite, why SNR 0.29 — the thought process
-  behind every design decision. Start here if you want to understand
-  the architecture.
-- `photon_test.py`: **Logical Axiom Validator.** Simulates the
-  integration of noise into signal paths to demonstrate the
-  **Basin Attraction** threshold logic.
-- `validation_log.txt`: Confirms mathematical consistency between
-  Q-Factor ($10^7$) and SR-amplification.
-- `photon_echo_pattern.png`: Visualization of resonance interference
-  states (Output-Mapping).
-- `METHODOLOGY_SYMBIOSE.md`: The orchestration process behind the
-  Multi-Model Audit.
+| File | Description |
+| :--- | :--- |
+| `README.md` | This document — project overview and entry point |
+| `ARCHITECTURE.md` | Design decisions and biomimetic origins |
+| `CORE_PHYSICS.md` | Physical reasoning behind every design decision |
+| `METHODOLOGY_SYMBIOSE.md` | Human-AI orchestration process |
+| `photon_test.py` | Stochastic Resonance / Basin Attraction validator |
+| `validation_log.txt` | Simulation results confirming mathematical consistency |
+| `photon_echo_pattern.png` | Visualization of resonance interference states |
 
 ---
 
@@ -158,7 +147,7 @@ AI entities using the
 | **R3** | Claude (Sonnet 4.6) | Basin Attraction simulation refactoring, code-hardening |
 | **R4** | Qwen (3.5 Plus) | Material science validation (Sapphire-WGM), global consistency audit |
 | **R5** | Gemini (2.0) | Architectural synthesis, Exocortex synchronization, logic-hardening |
-| **R6** | Claude (Sonnet 4.6) | CORE_PHYSICS.md documentation from Architect's original notes |
+| **R6** | Claude (Sonnet 4.6) | CORE_PHYSICS.md and ARCHITECTURE.md documentation |
 
 **Current Audit Status:**
 - 🟢 **Architectural Logic:** Internally consistent (Genesis V1)
@@ -186,6 +175,8 @@ AI entities using the
 
 This project is licensed under the **MIT License** —
 see the `LICENSE` file for details.
+
+---
 
 ## ⚠️ Researcher's Note
 
