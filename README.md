@@ -57,6 +57,10 @@ photonic signals that would be lost in conventional linear architectures.
 > maximally efficient. Noise is the fuel, not the problem.
 > See [CORE_PHYSICS.md § 5](CORE_PHYSICS.md) for the full derivation.
 
+## 🖼️ Visualization
+
+![L.U.M.O.S. Visualization](lumos_visualization.png)
+
 ---
 
 ## 🛠️ Hardware Specification (Validated Parameters)
@@ -121,6 +125,7 @@ the primary **Geometric Waveguide Operator**.
 | `photon_test.py` | Stochastic Resonance / Basin Attraction validator |
 | `validation_log.txt` | Simulation results confirming mathematical consistency |
 | `photon_echo_pattern.png` | Visualization of resonance interference states |
+| `lumos_visualization.png` | Visual overview of the L.U.M.O.S. architecture |
 
 ---
 
