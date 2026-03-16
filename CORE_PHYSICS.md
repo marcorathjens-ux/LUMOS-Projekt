@@ -20,7 +20,7 @@ Perovskite nanocrystals are among the most promising materials in modern
 photonics — but they degrade rapidly when exposed to oxygen and moisture.
 The hermetic high-vacuum environment eliminates this degradation entirely.
 
-> *„Vakuum = keine Luft = keine Streuung (Rayleigh) = maximale Signal-Integrität."*
+> *Vacuum = no air = no scattering (Rayleigh) = maximum signal integrity.*
 
 **1.2 Phonon Elimination (Thermal Noise)**
 In a vacuum, thermal phonons — lattice vibrations that degrade coherence —
@@ -28,7 +28,7 @@ are suppressed. This preserves the phase stability of the standing light
 waves used for memory storage.
 
 **1.3 Absolute Refractive Index Control**
-In vacuum ($n = 1.000$), the refractive index is fixed and invariant.
+In vacuum (n = 1.000), the refractive index is fixed and invariant.
 This gives precise, predictable control over light refraction at every
 sapphire facet — a prerequisite for stable interference patterns.
 
@@ -44,8 +44,8 @@ The geometry functions as a **Whispering Gallery Mode (WGM) resonator**.
 Light entering the crystal undergoes total internal reflection at each
 facet, circulating within the volume without escaping.
 
-- **Q-Factor:** $10^7$ (validated parameter)
-- **Implication:** A signal circulates $10^7$ cycles before losing
+- **Q-Factor:** 10⁷ (validated parameter)
+- **Implication:** A signal circulates 10⁷ cycles before losing
   coherence — enabling stable echo memory
 
 **2.2 Volumetric Echo vs. Linear Delay Lines**
@@ -59,14 +59,15 @@ $$\text{Information density} \propto \frac{\text{Reflections}}{\text{Volume}}$$
 The 120-facet geometry maximizes reflection density within a compact
 volume, achieving high information density without physical length.
 
-> *„L.U.M.O.S. ersetzt lineare Verzögerungsstrecken durch ein resonantes
-> Volumen-Echo, das die Information im 3D-Raum der Saphir-Geometrie
-> stabilisiert."*
+> *L.U.M.O.S. replaces linear delay lines with a resonant volume echo
+> that stabilizes information in the 3D space of the sapphire geometry.*
 
 **2.3 Parallel 3D Storage**
 Standing light waves within the 3D volume hold information simultaneously
 at millions of spatial points — true parallel computing, unlike sequential
 fiber-based approaches.
+
+→ *For the architectural origin of this decision, see [ARCHITECTURE.md § 2](ARCHITECTURE.md)*
 
 ---
 
@@ -110,11 +111,14 @@ serve as the logical basis states:
 
 | State | Wavelength | Logical Value |
 | :--- | :--- | :--- |
-| 0 | $\lambda_1$ | 000 |
-| 1 | $\lambda_2$ | 001 |
-| 2 | $\lambda_3$ | 010 |
-| ... | ... | ... |
-| 7 | $\lambda_8$ | 111 |
+| 0 | λ₁ | 000 |
+| 1 | λ₂ | 001 |
+| 2 | λ₃ | 010 |
+| 3 | λ₄ | 011 |
+| 4 | λ₅ | 100 |
+| 5 | λ₆ | 101 |
+| 6 | λ₇ | 110 |
+| 7 | λ₈ | 111 |
 
 **4.2 Information Density**
 Each light pulse carries 3 bits of information (vs. 1 bit in binary).
@@ -124,12 +128,11 @@ $$\text{Throughput} = 8^n \gg 2^n \quad \text{for } n \text{ parallel channels}$
 
 **4.3 Why Speed Increases**
 In silicon, electrons flow through resistance — generating heat and
-requiring time. Photons travel at $c = 3 \times 10^8\,\text{m/s}$
-with no resistive loss. Speed is limited only by path length — and
-in the compact polyhedron, paths are extremely short.
+requiring time. Photons travel at c = 3 × 10⁸ m/s with no resistive
+loss. Speed is limited only by path length — and in the compact
+polyhedron, paths are extremely short.
 
-> *„Das Licht muss nicht warten. Die Geschwindigkeit wird nur durch
-> die Länge der Lichtwege begrenzt."*
+> *The light does not wait. Speed is limited only by the length of the light paths.*
 
 ---
 
@@ -162,37 +165,86 @@ Validated result from `photon_test.py`:
 - Physical activation threshold: 5 nW
 - Basin capture rate at SNR 0.29: **74.2%** (± 2.7%)
 
-> *„Das Rauschen ist der Treibstoff — nicht das Problem."*
+> *The noise is the fuel — not the problem.*
 
 ---
 
-## 6. Implementation Roadmap (Physical Milestones)
+## 6. Why the Bipolar Coating? — Tolerance Compensation and Memory
+
+**6.1 Origin: The Manufacturing Problem**
+During the adversarial physics audit (DeepSeek R1, Round 2), a critical
+challenge was raised: the 120-facet polyhedron must be physically
+manufactured, and no manufacturing process achieves perfect geometry.
+Microscopic deviations in facet angles produce unpredictable variations
+in interference patterns — potentially degrading computational reliability.
+
+This was identified as a potential invalidation of the core architectural
+concept and required a direct solution.
+
+**6.2 Function 1 — Tolerance Compensation**
+The bipolar coating provides an adjustable correction layer at each facet
+interface. Where manufacturing introduces geometric deviation, the coating
+parameters are varied to restore the intended interference behavior.
+
+> The crystal does not need to be perfect.
+> The coating corrects what geometry cannot guarantee.
+
+**6.3 Function 2 — Memory Optimization**
+Prior to the bipolar coating, echo memory was purely time-based —
+information persisted only as long as the signal circulated above the
+coherence threshold defined by the Q-Factor (10⁷).
+
+The bipolar coating stabilizes the standing wave patterns within the
+resonant volume, extending effective memory duration beyond what the
+Q-Factor alone provides. It acts as a passive reinforcement layer for
+the echo states.
+
+**6.4 Emergent Dual Function**
+The bipolar coating was not planned as a feature. It emerged from the
+physics as the logical answer to the audit challenge — and in doing so,
+solved two independent problems with a single architectural element.
+
+This is consistent with the L.U.M.O.S. design principle:
+solutions arise from the physics, not imposed upon it.
+
+**6.5 Open Research Question**
+Whether the bipolar coating produces additional physical effects beyond
+tolerance compensation and memory stabilization is currently unknown.
+This is an explicit open question for experimental investigation.
+
+→ *For the architectural context of this decision, see [ARCHITECTURE.md § 3](ARCHITECTURE.md)*
+
+---
+
+## 7. Implementation Roadmap (Physical Milestones)
 
 | Phase | Timeline | Focus | Key Partners |
 | :--- | :--- | :--- | :--- |
 | **Phase 1** | 2025–2027 | Photonic co-processor prototype, RGB-logic on existing waveguide platforms | Q.ANT, photonic computing labs |
 | **Phase 2** | 2027–2030 | Perovskite stabilization in vacuum, hermetic sapphire packaging | SCHOTT, semiconductor clean rooms |
-| **Phase 3** | 2030–2035 | Full system integration, levitation interface, photon-to-phonon audio | Deep Tech investment, ECOMAT/Bremen |
+| **Phase 3** | 2030–2035 | Full system integration, levitation interface, bipolar coating optimization | Deep Tech investment, ECOMAT/Bremen |
 
 ---
 
-## 7. What Exists Today vs. What Is Projected
+## 8. What Exists Today vs. What Is Projected
 
 | Component | Status Today | L.U.M.O.S. Requirement |
 | :--- | :--- | :--- |
-| WGM Resonators (Q $10^7$) | ✅ Demonstrated in lab | Scaling & integration |
+| WGM Resonators (Q 10⁷) | ✅ Demonstrated in lab | Scaling & integration |
 | Perovskite nanocrystals | ✅ Commercial (LEDs, solar) | Vacuum stabilization at scale |
 | Two-Photon Polymerization | ✅ Nanoscribe available | Density scaling |
 | WDM (8 wavelengths) | ✅ Standard in telecom | Adaptation to logic operations |
 | Stochastic Resonance | ✅ Validated (photon_test.py) | Hardware integration |
+| Bipolar coating | 🟡 Concept validated | Material selection & optimization |
 | Full system integration | 🔴 Vector 2035+ | Material science convergence |
 
 ---
 
 > **Summary:** Every individual component of L.U.M.O.S. exists in
 > research or commercial form today. The innovation lies in their
-> **architectural integration** — using geometry, vacuum, and controlled
-> noise as a unified computational system rather than isolated components.
+> **architectural integration** — using geometry, vacuum, controlled
+> noise, and bipolar coating as a unified computational system rather
+> than isolated components.
 
 ---
 
